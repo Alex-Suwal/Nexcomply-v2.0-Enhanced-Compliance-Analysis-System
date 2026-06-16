@@ -1,0 +1,11 @@
+In CMD run following 
+
+#Install dependencies#
+pip install -r requirements.txt
+
+#Run the application#
+streamlit run app.py
+
+#Default Login Credentials#
+Username:admin
+Password:admin123

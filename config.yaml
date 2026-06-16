@@ -1,0 +1,56 @@
+# Nexcomply Configuration File
+
+# Application Settings
+app:
+  title: "Nexcomply v2.0 - Enhanced Compliance Analysis System"
+  page_icon: "🔒"
+  layout: "wide"
+  initial_sidebar_state: "expanded"
+
+# Folder Paths
+paths:
+  frameworks: "Frameworks/"
+  internal_policies: "New Format Policy Docs/"
+  knowledge_library: "Dummy KL/"
+  questionnaires: "Questionnaires/"
+  reports: "Risk Reports/"
+  database: "data/nexcomply.db"
+  logs: "data/logs/"
+
+# Model Settings
+models:
+  t5_model: "t5-small"
+  sbert_model: "all-MiniLM-L6-v2"
+
+# Gap Detection Settings
+gap_detection:
+  similarity_threshold: 0.7
+  severity_levels:
+    critical: 0.3
+    high: 0.5
+    medium: 0.7
+    low: 0.85
+
+# Summarization Settings
+summarization:
+  max_length: 150
+  min_length: 50
+  num_beams: 4
+
+# Admin Settings
+admin:
+  default_username: "admin"
+  default_password: "admin123"  # Change this in production!
+  session_timeout: 3600  # seconds
+
+# Report Settings
+reports:
+  pdf_format: true
+  excel_format: true
+  html_format: true
+  include_charts: true
+
+# Performance Settings
+cache:
+  ttl: 3600  # Time to live in seconds
+  max_entries: 100
