@@ -1,4 +1,3 @@
-# Nexcomply-v2.0-Enhanced-Compliance-Analysis-System
 # Nexcomply v2.0 - Enhanced Compliance Analysis System
 
 A comprehensive compliance analysis system that helps organizations identify and address compliance gaps through automated analysis, AI-powered summarization, and intelligent gap detection.
